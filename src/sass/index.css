@@ -27,10 +27,6 @@ a {
   display: inline-block;
 }
 
-.container-sm {
-  background-color: #fff;
-}
-
 .nav-link {
   font-family: "Inter", sans-serif, "Montserrat", sans-serif;
   position: relative;
@@ -40,7 +36,9 @@ a {
   line-height: 150%;
   letter-spacing: -0.14px;
   color: black;
-  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .nav-link__button {
   position: absolute;
@@ -52,10 +50,49 @@ a {
 }
 
 .nav-item {
-  padding-right: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 48px;
 }
 
 .input-group-text {
   padding: 0;
   margin: 0;
+}
+
+.container-sm {
+  background-color: #fff;
+}
+
+.wrapper-box {
+  background-color: #dcc1ab;
+}
+.wrapper-box__text {
+  align-self: stretch;
+  color: #111;
+  font-family: "Inter", sans-serif, "Montserrat", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+}
+.wrapper-box__caption {
+  align-items: flex-start;
+  gap: 44px;
+  align-self: stretch;
+}
+.wrapper-box__btn-outline-primary {
+  padding: 12px 24px 14px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  background: var(--green, #1b5b31);
+}
+
+.gx-5 {
+  display: flex;
+  width: 1440px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
 }/*# sourceMappingURL=index.css.map */
