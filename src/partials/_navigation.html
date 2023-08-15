@@ -1,10 +1,53 @@
-<article class="example" id="uk">
-  <h1>HTML-partials</h1>
-
-  <!--
-    ❗️❗️❗️ The path to images from the HTML partial
-    is the same as from the index.html file
-  -->
-
-  <div class="container">Some</div>
-</article>
+<nav class="navbar navbar-light">
+  <div class="container-sm container-md">
+    <a class="navbar-brand" href="#">
+      <img
+        src="/src/images/giarddesign(2).svg"
+        width="115"
+        height="19"
+        alt="logo"
+      />
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          href="#"
+          role="button"
+          aria-expanded="false"
+          >Oferta</a
+        >
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">O firmie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Realizacje</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Kontakt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <button type="button" class="nav-link__button">
+            <svg>
+              <use
+                href="/src/images/symbol-defs.svg#icon-search"
+                width="24"
+                height="24"
+              ></use>
+            </svg>
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

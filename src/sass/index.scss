@@ -1,2 +1,8 @@
-@import './common';
-@import './example';
+//base
+@import './base/_reset';
+
+//utilities
+@import './utilities/variables';
+
+//components
+@import './navigation';
