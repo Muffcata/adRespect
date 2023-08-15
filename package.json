@@ -1,11 +1,11 @@
 {
-  "name": "adrespect",
+  "name": "adrespect-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Muffcata.github.io/adrespect",
+  "homepage": "https://Muffcata.github.io/adRespect",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /adrespect/"
+    "build": "parcel build src/*.html --public-url /adRespect/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "author": "Marta Dąbrowska <mdabrowskadev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Muffcata/adrespect/issues"
+    "url": "https://github.com/Muffcata/adRespect/issues"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
