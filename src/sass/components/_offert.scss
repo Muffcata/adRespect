@@ -1,0 +1,43 @@
+.section {
+  padding-top: 120px;
+}
+.wrapper-frame {
+  display: flex;
+  width: 709px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 96px;
+}
+.custom-font {
+  font-family: $font-stack, sans-serif;
+  font-style: italic;
+}
+.font {
+  color: #111;
+  font-family: $font-stack;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -1.44px;
+}
+.text {
+  color: #111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.16px;
+  font-family: $font-stack;
+}
+.nav-link-custom {
+  color: #1b5b31;
+  font-family: $font-stack;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.12px;
+  padding: 0;
+}

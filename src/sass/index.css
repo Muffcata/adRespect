@@ -27,8 +27,19 @@ a {
   display: inline-block;
 }
 
+.navbar {
+  display: flex;
+  padding: 24px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  align-items: center;
+}
+
 .nav-link {
-  font-family: "Inter", sans-serif, "Montserrat", sans-serif;
+  font-family: "Inter", serif, "Montserrat", sans-serif;
   position: relative;
   font-size: 14px;
   font-style: normal;
@@ -89,7 +100,7 @@ a {
   gap: 44px;
   align-self: stretch;
   color: #111;
-  font-family: "Inter", sans-serif, "Montserrat", sans-serif;
+  font-family: "Inter", serif, "Montserrat", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -116,11 +127,11 @@ a {
   font-size: 16px;
   border: 1px solid #1b5b31;
   border-top: 1px solid #1b5b31;
-  background-color: #f5f0ec;
+  background-color: #dcc1ab;
 }
 .col__caption {
   color: #111;
-  font-family: "Inter", sans-serif, "Montserrat", sans-serif;
+  font-family: "Inter", serif, "Montserrat", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -147,4 +158,53 @@ a {
   justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
+}
+
+.section {
+  padding-top: 120px;
+}
+
+.wrapper-frame {
+  display: flex;
+  width: 709px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 96px;
+}
+
+.custom-font {
+  font-family: "Inter", serif, "Montserrat", sans-serif, sans-serif;
+  font-style: italic;
+}
+
+.font {
+  color: #111;
+  font-family: "Inter", serif, "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -1.44px;
+}
+
+.text {
+  color: #111;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.16px;
+  font-family: "Inter", serif, "Montserrat", sans-serif;
+}
+
+.nav-link-custom {
+  color: #1b5b31;
+  font-family: "Inter", serif, "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.12px;
+  padding: 0;
 }/*# sourceMappingURL=index.css.map */
