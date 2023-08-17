@@ -216,10 +216,9 @@ a {
   border-radius: 28px;
 }
 .card:hover {
-  border: 1px solid #1b5b31;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  border: rgb(145, 132, 165) 1px solid;
+  box-shadow: 5px 5px 20px #1b5b31;
   cursor: pointer;
-  transform: translateY(5%);
   transition: transform 250ms cubic-bezier(0.9, 0, 0.2, 1);
 }
 
@@ -277,4 +276,8 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.icon {
+  fill: #1b5b31;
 }/*# sourceMappingURL=index.css.map */
