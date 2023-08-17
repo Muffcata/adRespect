@@ -151,6 +151,7 @@ a {
 .box {
   display: flex;
   flex-direction: row;
+  gap: 64px;
 }
 
 .image {
@@ -161,31 +162,32 @@ a {
 }
 
 .section {
-  padding-top: 120px;
+  background: #f5f0ec;
+  padding-bottom: 160px;
 }
 
 .wrapper-frame {
   display: flex;
-  width: 709px;
+  padding: 120px 0px 96px 0px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
-  margin-bottom: 96px;
+  width: 709px;
 }
 
 .custom-font {
-  font-family: "Inter", serif, "Montserrat", sans-serif, sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
 }
 
 .font {
   color: #111;
-  font-family: "Inter", serif, "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: -1.44px;
+  padding-top: 16px;
 }
 
 .text {
@@ -196,6 +198,7 @@ a {
   line-height: 150%;
   letter-spacing: -0.16px;
   font-family: "Inter", serif, "Montserrat", sans-serif;
+  padding-top: 32px;
 }
 
 .nav-link-custom {
@@ -207,4 +210,71 @@ a {
   line-height: 18px;
   letter-spacing: -0.12px;
   padding: 0;
+}
+
+.card {
+  border-radius: 28px;
+}
+.card:hover {
+  border: 1px solid #1b5b31;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  transform: translateY(5%);
+  transition: transform 250ms cubic-bezier(0.9, 0, 0.2, 1);
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lape {
+  justify-content: center;
+  display: flex;
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.2px;
+  letter-spacing: -1.4px;
+  padding-bottom: 12px;
+}
+
+.card-text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.14px;
+  align-self: stretch;
+  padding-bottom: 64px;
+}
+
+.btn-primary-offert {
+  display: flex;
+  padding-bottom: 0px;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #1b5b31;
+  color: #1b5b31;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-body {
+  align-self: stretch;
+  display: flex;
+  padding: 48px 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }/*# sourceMappingURL=index.css.map */
