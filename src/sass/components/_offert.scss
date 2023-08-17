@@ -3,7 +3,7 @@
   padding-bottom: 160px;
 }
 .wrapper-frame {
-  display: flex;
+  display: block;
   padding: 120px 0px 96px 0px;
   flex-direction: column;
   align-items: flex-start;
@@ -46,6 +46,7 @@
 }
 .card {
   border-radius: 28px;
+  flex-grow: 1;
   &:hover {
     border: rgb(145, 132, 165) 1px solid;
     box-shadow: 5px 5px 20px#1b5b31;
@@ -55,9 +56,10 @@
   }
 }
 .card-box {
-  display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 16px;
+  display: flex;
 }
 .lape {
   justify-content: center;
@@ -106,4 +108,12 @@
 }
 .icon {
   fill: #1b5b31;
+}
+@media screen and (min-width: 1200px) {
+  // .card-box {
+  //   flex-wrap: wrap;
+  //   display: flex;
+
+  //   gap: 16px;
+  // }
 }
