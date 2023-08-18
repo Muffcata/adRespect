@@ -366,6 +366,11 @@ a {
   transform: scale(0.9);
 }
 
+.btns {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .icon-color {
   fill: #f5f0ec;
 }
