@@ -223,10 +223,7 @@ a {
 }
 
 .card-box {
-  flex-direction: column;
-  flex-wrap: wrap;
   gap: 16px;
-  display: flex;
 }
 
 .lape {
@@ -283,6 +280,11 @@ a {
   fill: #1b5b31;
 }
 
+@media (max-width: 1100px) {
+  .row {
+    gap: 16px;
+  }
+}
 .content-about {
   display: flex;
   align-items: center;
