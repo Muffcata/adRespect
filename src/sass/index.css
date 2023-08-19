@@ -201,7 +201,6 @@ a {
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: -1.44px;
   padding-top: 16px;
 }
@@ -397,6 +396,7 @@ a {
   float: left;
   display: flex;
   margin-bottom: 30px;
+  padding-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -405,5 +405,54 @@ a {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 42px;
+    padding-top: 96px;
+  }
+}
+.insta-block {
+  display: flex;
+  padding: 60px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.centre {
+  padding: 120px 110px;
+  align-items: flex-end;
+  gap: 64px;
+  background: #1b5b31;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-instagram {
+  display: flex;
+  padding: 10px 24px 12px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  background: #f5f0ec;
+  color: #1b5b31;
+}
+.btn-instagram:hover {
+  border: rgb(145, 132, 165) 1px solid;
+  box-shadow: 5px 5px 20px #1b5b31;
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.9, 0, 0.2, 1);
+}
+.btn-instagram:active {
+  transform: scale(0.9);
+}
+
+.list-inst {
+  padding: 0;
+  flex-direction: column;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .centre {
+    display: flex;
   }
 }/*# sourceMappingURL=index.css.map */
