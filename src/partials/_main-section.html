@@ -1,29 +1,53 @@
 <section class="wrapper-box">
-  <div class="row">
-    <div class="boxing">
-      <div class="container-fluid col">
-        <h1 class="col__text">Nowoczesna aranżacja Twojego ogrodu</h1>
-        <p class="col__caption">
-          Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka
-          realizacji. Oferujemy kompleksowy zakres usług z indywidualnym
-          podejściem do każdego projektu.
-        </p>
-        <div class="buttons">
-          <button type="button" class="btn col__btn">
-            Skontaktuj się z nami
-          </button>
-          <button type="button" class="btn col__btn-second">
-            Zobacz nasze realizacje
-            <svg class="icon" width="16" height="16">
-              <use href="/src/images/symbol-defs.svg#icon-arrow-down2"></use>
-            </svg>
-          </button>
+  <div
+    id="carouselExampleInterval"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner container">
+      <div class="carousel-item active left-side" data-bs-interval="4000">
+        <div class="box-left">
+          <h2 class="col__text">Nowoczesna aranżacja Twojego ogrodu</h2>
+          <p class="col__caption">
+            Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka
+            realizacji. Oferujemy kompleksowy zakres usług z indywidualnym
+            podejściem do każdego projektu.
+          </p>
+          <div class="buttons">
+            <button type="button" class="btn col__btn">
+              Skontaktuj się z nami
+            </button>
+            <button type="button" class="btn col__btn-second">
+              Zobacz nasze realizacje
+              <svg class="icon" width="16" height="16">
+                <use href="/src/images/symbol-defs.svg#icon-arrow-down2"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
-
-      <div class="col">
-        <img class="image" src="/src/images/Photo.jpg" alt="slider" />
-      </div>
     </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="/src/images/Photo.jpg" class="d-block w-100" alt="slider" />
+    </div>
+
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleInterval"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleInterval"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </section>
