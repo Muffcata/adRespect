@@ -478,6 +478,15 @@ a {
   background: #1b5b31;
   color: #f5f0ec;
 }
+.btn-footer:hover {
+  border: rgb(145, 132, 165) 1px solid;
+  box-shadow: 5px 5px 20px #1b5b31;
+  cursor: pointer;
+  color: #f5f0ec;
+}
+.btn-footer:active {
+  transform: scale(0.9);
+}
 
 .footer-main {
   display: block;
