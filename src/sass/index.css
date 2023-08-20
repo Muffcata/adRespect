@@ -60,6 +60,10 @@ a {
   height: 24px;
 }
 
+.drop-bg {
+  background-color: #d4c4b6;
+}
+
 .nav-item {
   display: flex;
   align-items: center;
@@ -505,6 +509,12 @@ a {
   display: block;
 }
 
+.social-link {
+  display: flex;
+  text-decoration: none;
+  color: #f5f0ec;
+}
+
 .middle-footer {
   display: block;
   justify-content: space-between;
@@ -591,6 +601,7 @@ a {
   .content-end {
     padding-top: 120px;
     margin-top: 0;
+    padding-bottom: 80px;
   }
   .item-rights {
     display: flex;

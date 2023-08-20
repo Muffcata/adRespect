@@ -38,6 +38,11 @@
   padding: 0;
   display: block;
 }
+.social-link {
+  display: flex;
+  text-decoration: none;
+  color: #f5f0ec;
+}
 .middle-footer {
   ::before {
     content: '';
@@ -119,6 +124,7 @@
   .content-end {
     padding-top: 120px;
     margin-top: 0;
+    padding-bottom: 80px;
   }
   .item-rights {
     display: flex;
