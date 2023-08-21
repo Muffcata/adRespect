@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/adRespect.git"
+    "url": "git+https://github.com/muffcata/adRespect.git"
   },
   "keywords": [],
   "author": "Marta Dąbrowska <mdabrowskadev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/muffcata/adRespect/"
+    "url": "https://github.com/muffcata/adRespect/issues"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
