@@ -139,28 +139,15 @@ a {
   font-size: 13px;
 }
 
-.icon2:hover {
-  fill: #c5d0c9;
-}
-
 .buttons {
   display: flex;
   align-items: flex-start;
   gap: 36px;
 }
 
-.carousel-item img {
+.carousel-item > img {
   max-width: 100%;
   height: auto;
-}
-
-.str {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 44px;
-  width: 1440px;
-  padding-right: 64px;
 }
 
 .text {
@@ -172,7 +159,6 @@ a {
   display: flex;
   width: 688px;
   height: 737px;
-  padding: 641px 496px 0px 0px;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
@@ -333,6 +319,10 @@ a {
   fill: #1b5b31;
 }
 
+.card-icon {
+  padding-bottom: 32px;
+}
+
 @media (max-width: 1100px) {
   .row-gap {
     gap: 16px;
@@ -431,20 +421,31 @@ a {
 .grid-item {
   float: left;
   display: flex;
-  margin-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-@media (min-width: 768px) {
+.btn-load {
+  display: inline-flex;
+  padding: 12px 22px 14px 22px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 200px;
+  border: 1px solid #111;
+}
+
+.grid-item > img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
   .grid-item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 42px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
     padding-top: 96px;
-  }
-  .temp-grid {
-    width: 100%;
   }
 }
 .insta-block {

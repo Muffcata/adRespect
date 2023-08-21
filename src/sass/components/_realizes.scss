@@ -6,19 +6,28 @@
 .grid-item {
   float: left;
   display: flex;
-  margin-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+.btn-load {
+  display: inline-flex;
+  padding: 12px 22px 14px 22px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 200px;
+  border: 1px solid #111;
+}
+.grid-item > img {
+  max-width: 100%;
+  height: auto;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .grid-item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 42px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
     padding-top: 96px;
-  }
-  .temp-grid {
-    width: 100%;
   }
 }
