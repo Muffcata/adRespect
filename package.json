@@ -3,14 +3,13 @@
   "version": "2.0.0",
   "description": "",
   "homepage": "https://muffcata.github.io/adRespect",
-
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /adRespect/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muffcata/adRespect.git"
+    "url": "git+https://github.com/goitacademy/adRespect.git"
   },
   "keywords": [],
   "author": "Marta Dąbrowska <mdabrowskadev@gmail.com>",
