@@ -39,8 +39,22 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Kontakt</a>
       </li>
-      <li class="nav-item">
-        <button type="button" class="nav-link__button">
+      <li class="nav-item search-backdrop show">
+        <!-- <button type="button" class="nav-link__button">
+          <svg>
+            <use
+              href="/src/images/symbol-defs.svg#icon-search"
+              width="24"
+              height="24"
+            ></use>
+          </svg>
+        </button> -->
+        <button
+          type="button"
+          class="nav-link__button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
           <svg>
             <use
               href="/src/images/symbol-defs.svg#icon-search"
@@ -49,6 +63,57 @@
             ></use>
           </svg>
         </button>
+
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                  Szukaj
+                </h1>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder=""
+                  aria-label="default input example"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn col__btn"
+                  data-bs-dismiss="modal"
+                >
+                  Anuluj
+                </button>
+                <button
+                  type="button"
+                  class="btn col__btn"
+                  data-bs-dismiss="modal"
+                >
+                  Znajdź
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </li>
     </ul>
   </div>

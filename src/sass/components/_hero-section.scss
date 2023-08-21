@@ -1,5 +1,9 @@
 .wrapper-box {
   background-color: #dcc1ab;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
 }
 .col {
   // display: flex;
@@ -105,14 +109,15 @@
 }
 .box-left {
   display: flex;
-  width: 599px;
+
   flex-direction: column;
   align-items: flex-start;
   gap: 72px;
 }
+
 .left-side {
-  padding-top: 144px;
-  padding-bottom: 144px;
+  padding-top: 60px;
+  padding-bottom: 47px;
 }
 @media (min-width: 768px) {
   .col {
@@ -128,11 +133,8 @@
       font-size: 16px;
     }
   }
-  .wrapper-box {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 64px;
-    background-color: #dcc1ab;
+  .left-side {
+    padding-top: 144px;
+    padding-bottom: 144px;
   }
 }
