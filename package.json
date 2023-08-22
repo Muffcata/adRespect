@@ -2,11 +2,11 @@
   "name": "adrespect-project",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
   "homepage": "https://muffcata.github.io/adRespect",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /adRespect/"
+    "build": "parcel build src/*.html --public-url /adRespect/",
+    "clear-cache": "rm -rf .parcel-cache"
   },
   "repository": {
     "type": "git",
