@@ -1,1 +1,1 @@
-Some text - it will be add in the future
+Projekt stworzony na potrzeby zadania rekrutacyjnego adRespect.

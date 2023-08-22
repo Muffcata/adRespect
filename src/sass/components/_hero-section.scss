@@ -2,7 +2,7 @@
   background-color: #dcc1ab;
 }
 .col {
-  display: flex;
+  display: block;
 
   &__text {
     font-family: 'Montserrat', sans-serif;
@@ -79,10 +79,9 @@
 }
 
 .left-side {
-  padding-top: 200px;
-
+  padding-top: 250px;
   background-color: #dcc1ab;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 @media (min-width: 768px) {
   .col {

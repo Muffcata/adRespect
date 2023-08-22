@@ -78,7 +78,7 @@ a {
 }
 
 .col {
-  display: flex;
+  display: block;
 }
 .col__text {
   font-family: "Montserrat", sans-serif;
@@ -154,9 +154,9 @@ a {
 }
 
 .left-side {
-  padding-top: 200px;
+  padding-top: 250px;
   background-color: #dcc1ab;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 
 @media (min-width: 768px) {
@@ -249,7 +249,6 @@ a {
   border: rgb(145, 132, 165) 1px solid;
   box-shadow: 5px 5px 20px #1b5b31;
   cursor: pointer;
-  transition: transform 250ms cubic-bezier(0.9, 0, 0.2, 1);
 }
 .card:active {
   transform: scale(0.9);
@@ -257,6 +256,9 @@ a {
 
 .card-box {
   gap: 16px;
+}
+.card-box:hover {
+  transform: rotateY(180deg);
 }
 
 .lape {
