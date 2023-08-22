@@ -177,6 +177,8 @@ a {
     margin-left: 10px;
   }
   .left-side {
+    padding-left: 67px;
+    padding-top: 170px;
     padding-bottom: 0px;
     background: none;
   }
