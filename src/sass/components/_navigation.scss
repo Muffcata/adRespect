@@ -5,20 +5,15 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav {
-  align-items: center;
-}
+
 .nav-link {
-  font-family: $font-stack;
-  position: relative;
+  font-family: 'Inter', serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.14px;
   color: black;
-  display: flex;
-  align-items: center;
   gap: 5px;
   &__button {
     position: absolute;
