@@ -2,6 +2,7 @@
   "name": "adrespect-project",
   "version": "2.0.0",
   "description": "",
+  "main": "index.js",
   "homepage": "https://muffcata.github.io/adRespect",
   "scripts": {
     "start": "parcel src/*.html",
