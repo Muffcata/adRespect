@@ -59,9 +59,7 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                  Szukaj
-                </h1>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
 
                 <button
                   type="button"
@@ -71,28 +69,17 @@
                 ></button>
               </div>
               <div class="modal-body">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder=""
-                  aria-label="default input example"
-                />
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn col__btn"
-                  data-bs-dismiss="modal"
-                >
-                  Anuluj
-                </button>
-                <button
-                  type="button"
-                  class="btn col__btn"
-                  data-bs-dismiss="modal"
-                >
-                  Znajdź
-                </button>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
               </div>
             </div>
           </div>
